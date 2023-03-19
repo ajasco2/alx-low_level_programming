@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 /**
- * main - prints the last digit of randomly a generated number
- * and whether it is greater than 5, less than 6, or 0.
+ * main - Print the if number is greater , zero or greater than 5
  *
- * Return: Always 0.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
