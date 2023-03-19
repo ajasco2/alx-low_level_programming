@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - print the last digit a generated number
+/**
+ * main - print the last digit a generated number
  * if it is greater than 5, less than 6, or 0.
  *
- * Return: Always 0.*/
+ * Return: Always 0.
+ */
 int main(void)
 {
 	int n;
