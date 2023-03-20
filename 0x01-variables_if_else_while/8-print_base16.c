@@ -2,6 +2,7 @@
 /**
  * main - Prints all the numbers to base 16 in lowercase
  *
+ * Return: Always 0 (success)
  */
 
 int main(void)
