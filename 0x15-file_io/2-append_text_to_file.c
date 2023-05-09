@@ -6,10 +6,10 @@
  * @text_content: string to add to the end of the file.
  *
  * Return: If the function fails or filename is NULL - -1.
- *         1 if the function exist and -1 If the function does not exist 
+ *         If the file does not exist the user lacks write permissions - -1.
  *         Otherwise - 1.
  */
-int append_text_to_file(const char *filename, char *text_content)
+ int append_text_to_file(const char *filename, char *text_content)
 {
         int j, z, len = 0;
 
